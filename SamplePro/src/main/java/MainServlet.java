@@ -8,10 +8,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class mainServlet
+ * Servlet implementation class MainServlet
  */
 @WebServlet("/MainServlet")
 public class MainServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
        
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("mainServlet");
