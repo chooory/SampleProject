@@ -15,7 +15,7 @@ public class MainServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		System.out.println("mainServlet 수정~");
+		System.out.println("mainServlet 수정~ 팀장수정~");
 	}
 
 	/**
